@@ -28,19 +28,19 @@
   }
   
   .twowheeler {
-    background-color: #e8f5e9;
+    background-color: #fffef4;
   }
   
   .threewheeler {
-    background-color: #fffde7;
+    background-color: #fffef4;
   }
   
   .fourwheeler {
-    background-color: #e3f2fd;
+    background-color: #fffef4;
   }
   
   h1, h2 {
-    color: #333;
+    color: #ca2c2c;
     margin-bottom: 10px;
   }
   
@@ -55,7 +55,7 @@
   }
   
   span {
-    background-color: #4caf50; /* Default green for Available */
+    background-color: #115c14; /* Default green for Available */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -65,15 +65,15 @@
   }
   
   .twowheeler span {
-    background-color: #8bc34a; /* Light Green for Two-Wheeler */
+    background-color: #5fb200; /* Light Green for Two-Wheeler */
   }
   
   .threewheeler span {
-    background-color: #ffeb3b; /* Yellow for Three-Wheeler */
+    background-color: #5fb200; /* Yellow for Three-Wheeler */
   }
   
   .fourwheeler span {
-    background-color: #2196f3; /* Blue for Four-Wheeler */
+    background-color: #5fb200; /* Blue for Four-Wheeler */
   }
   
   span:hover {

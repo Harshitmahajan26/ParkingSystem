@@ -10,16 +10,16 @@ const Navbar = () => {
       <nav className="nav">
         <div className="container">
           <div className="logo">
-            <Link to="/">YourLogo</Link>
+            <Link to="/">Harshit Mahajan</Link>
           </div>
           <div className="main_list" id="mainListDiv">
             <ul>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/pspace">P-Space</Link></li>
+              {/* <li><Link to="/pspace">Availablity</Link></li> */}
               <li><Link to="/booking">Booking</Link></li>
               <li><Link to="/wallet">Wallet</Link></li>
               
-              {isLoggedIn && <li><Link to="/profile">Profile</Link></li>} {/* Show Profile only if logged in */}
+              {/* {isLoggedIn && <li><Link to="/profile">Profile</Link></li>} Show Profile only if logged in */}
               
               <li><Link to="/contact">Contact Us</Link></li>
 

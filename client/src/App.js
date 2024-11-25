@@ -7,7 +7,6 @@ import Profile from './Component/Profile';
 import Footer from './Component/Footer';
 import ParkingSpace from './Component/ParkingSpace';
 import Wallet from './Component/Wallet';  // Import the Wallet component
-import Contact from './Component/Contact';  // Import the Contact component
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/parking-space" element={<ParkingSpace />} />
         <Route path="/wallet" element={<Wallet />} />  {/* Add Wallet route */}
-        <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
     </div>

@@ -4,12 +4,15 @@ const ParkingSpace = () => {
   return (
     <div className='mainContainerparkingspace'>
         <div> 
-            <h1>Parking Space</h1>
+            <h1>Parking Management</h1>
         </div>
     <div className='ParkingSpaceContainer'>
       <div className='twowheeler'>
-        <h2>2 Wheeler</h2>
+        <h2>Two Wheeler</h2>
         <div>
+            <span>Available</span>
+            <span>Available</span>
+            <span>Available</span>
             <span>Available</span>
             <span>Available</span>
             <span>Available</span>
@@ -22,8 +25,11 @@ const ParkingSpace = () => {
       </div>
 
       <div className='threewheeler'>
-        <h2>3 Wheeler</h2>
+        <h2>Three Wheeler</h2>
         <div>
+            <span>Available</span>
+            <span>Available</span>
+            <span>Available</span>
             <span>Available</span>
             <span>Available</span>
             <span>Available</span>
@@ -36,8 +42,11 @@ const ParkingSpace = () => {
       </div>
 
       <div className='fourwheeler'>
-        <h2>4 Wheeler</h2>
+        <h2>Four Wheeler</h2>
         <div>
+            <span>Available</span>
+            <span>Available</span>
+            <span>Available</span>
             <span>Available</span>
             <span>Available</span>
             <span>Available</span>
